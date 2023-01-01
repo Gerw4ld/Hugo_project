@@ -1,0 +1,15 @@
+baseURL = 'https://yoursite.example.com/'
+title = 'My Hugo Landingpage'
+[params]
+  AuthorName = 'Gerwald Gindra-Vady'
+  GitHubUser = 'Gerw4ld'
+  ListOfFoo = ['foo1', 'foo2', 'fooU']
+  SidebarRecentLimit = 5
+  Subtitle = 'Hugo is Absurdly Fast!'
+
+  # Banner Section
+  [params.HeroBanner]
+    enable                = true
+    background_image      = "images/background.jpg"
+    heading               = "HeroBanner"
+    tagline               = "Some awesome subtext"
