@@ -154,3 +154,24 @@ footer {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/* MainInfo */
+
+.mainInfo{
+    display: block
+}
+
+.mainInfo ~ h2{
+    font-size: 1rem;
+    background-color: #e7e7e7;
+}
+
+.headline2{
+    font-size: 1rem;
+    background-color: #e7e7e7;
+}
+
+.containerText{
+display: flex;
+    justify-content: space-between;
+}

@@ -1,4 +1,4 @@
-baseURL = 'https://yoursite.example.com/'
+baseURL = "https://www.example.com/"
 title = 'My Hugo Landingpage'
 theme = 'myTheme'
 [params]
@@ -20,11 +20,35 @@ theme = 'myTheme'
 
   # Banner Section
   [params.HeroBanner]
-    enable                = true
-    background_image      = "images/background.jpg"
-    title               = "HeroBanner"
-    text               = "Some awesome subtext"
-    button_text           = "Click me"
+      enable                = true
+      background_image      = "images/background.jpg"
+      title               = "HeroBanner"
+      text               = "Some awesome subtext"
+      button_text           = "Click me"
+
+  # MainInfo Section does not work here, only in Data...
+  # [params.MainInfo]
+# enable = true
+# title = "Main Info"
+# subtitle = "Lorem Ispum stuff"
+
+# [[testimonial_item]]
+# image = "images/image.png"
+# text = """
+# Lorem Ipsum
+# """
+
+# [[testimonial_item]]
+# image = "images/image.png"
+# text = """
+# Lorem Ipsum
+# """
+
+# [[testimonial_item]]
+# image = "images/image.png"
+# text = """
+# Lorem Ipsum
+# """
 
   [params.meta]
       keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
