@@ -1,0 +1,19 @@
+{{ with .Site.Data.contactAndInfo }}
+{{ if .enable }}
+<section >
+    <div class="contactAndInfoContainer">
+        <div class="leftSide">
+        <p>
+            {{ .textLeft }}
+        </p>
+        <p>
+            {{ .textRight }}
+        </p></div>
+        <div class="rightSide">
+            {{ .maps }}
+        </div>
+    </div>
+
+</section>
+{{ end }}
+{{ end }}

@@ -6,7 +6,6 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
     height: 100%;
     max-height: 100%;
-    overflow-x: hidden;
 }
 
 body {
@@ -124,11 +123,11 @@ footer {
     position: relative;
 }
 
-.title{
+.title {
     margin-bottom: 1rem;
 }
 
-.subtext{
+.subtext {
     font-size: 1.25rem;
     margin-bottom: 2rem;
 }
@@ -143,7 +142,9 @@ footer {
     border-radius: 10px;
 }
 
-.button:hover {background-color: #e7e7e7;}
+.button:hover {
+    background-color: #e7e7e7;
+}
 
 
 .text {
@@ -157,21 +158,28 @@ footer {
 
 /* MainInfo */
 
-.mainInfo{
+.mainInfo {
     display: block
 }
 
-.mainInfo ~ h2{
-    font-size: 1rem;
-    background-color: #e7e7e7;
-}
-
-.headline2{
-    font-size: 1rem;
-    background-color: #e7e7e7;
-}
-
-.containerText{
-display: flex;
+.containerText {
+    display: flex;
     justify-content: space-between;
+}
+
+/* MainInfo */
+
+.contactAndInfoContainer {
+    display: flex;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 50vw;
+}
+
+.rightSide {
+    width: 50vw;
 }
