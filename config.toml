@@ -1,5 +1,6 @@
 baseURL = 'https://yoursite.example.com/'
 title = 'My Hugo Landingpage'
+theme = 'myTheme'
 [params]
   AuthorName = 'Gerwald Gindra-Vady'
   GitHubUser = 'Gerw4ld'
@@ -7,9 +8,22 @@ title = 'My Hugo Landingpage'
   SidebarRecentLimit = 5
   Subtitle = 'Hugo is Absurdly Fast!'
 
+  # A "copyright"-line to be added at the bottom of the page.
+  # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+  copyright = "Gerwald Gindra-Vady"
+
+  # The "description" of your website. This is used in the meta data of your generated html.
+  description = "Landingpage for SMEs"
+
+  # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+  favicon = "images/favicon.jpg"
+
   # Banner Section
   [params.HeroBanner]
     enable                = true
     background_image      = "images/background.jpg"
     heading               = "HeroBanner"
     tagline               = "Some awesome subtext"
+
+  [params.meta]
+      keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
