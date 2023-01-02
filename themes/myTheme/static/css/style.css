@@ -233,3 +233,38 @@ footer {
     justify-content: center;
     margin-bottom: 4rem;
 }
+
+/* Impressum */
+
+#impressumText {
+    display: none;
+}
+
+#impressumToggle:checked ~ #impressumText {
+    display: block;
+}
+
+#impressumToggle:checked ~ #arrow {
+    transform: rotate(-135deg);
+}
+
+#impressumToggle {
+    opacity: 0;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+
+.displayFlex{
+
+}
+
+.marginForImpressum{
+    display: flex;
+    flex-direction: row;
+}
