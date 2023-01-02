@@ -2,19 +2,19 @@ enable = true
 title = "Main Info"
 subtitle = "Lorem Ispum stuff"
 
-[[testimonial_item]]
+[[item]]
 image = "images/image.png"
 text = """
 Lorem Ipsum
 """
 
-[[testimonial_item]]
+[[item]]
 image = "images/image.png"
 text = """
 Lorem Ipsum
 """
 
-[[testimonial_item]]
+[[item]]
 image = "images/image.png"
 text = """
 Lorem Ipsum

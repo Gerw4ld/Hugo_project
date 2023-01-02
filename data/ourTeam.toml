@@ -1,0 +1,23 @@
+enable = true
+title = "Our Team"
+
+[[item]]
+image = "images/employee1.png"
+name = "John Doe"
+role = """
+Lorem Ipsum
+"""
+
+[[item]]
+image = "images/employee2.png"
+name = "Jane Doe"
+role = """
+Lorem Ipsum
+"""
+
+[[item]]
+image = "images/employee3.png"
+name = "Mr. Roberts"
+role = """
+Lorem Ipsum
+"""

@@ -1,19 +1,16 @@
-{{ with .Site.Data.contactAndInfo }}
+{{ with .Site.Params.contactAndInfo }}
 {{ if .enable }}
-<section >
-    <div class="contactAndInfoContainer">
-        <div class="leftSide">
+<section class="contactAndInfoContainer">
+    <div class="leftSide">
         <p>
             {{ .textLeft }}
         </p>
         <p>
             {{ .textRight }}
         </p></div>
-        <div class="rightSide">
-            {{ .maps }}
-        </div>
+    <div class="rightSide">
+        {{ .maps }}
     </div>
-
 </section>
 {{ end }}
 {{ end }}

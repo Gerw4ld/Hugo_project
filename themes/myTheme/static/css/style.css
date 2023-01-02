@@ -159,17 +159,33 @@ footer {
 /* MainInfo */
 
 .mainInfo {
-    display: block
+    display: block;
+    /*margin-bottom: 5rem;*/
 }
 
 .containerText {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* MainInfo */
+/* CSS is not working properly */
+
+/*.toggleText {*/
+/*    display: none;*/
+/*}*/
+
+/*#toggle:checked ~ #toggleText {*/
+/*    display: block;*/
+/*}*/
+
+/*#toggle {*/
+/*    opacity: 0;*/
+/*}*/
+
+/* ContactAndInfo */
 
 .contactAndInfoContainer {
+    /*padding-top: 4rem;*/
     display: flex;
 }
 
@@ -177,9 +193,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-width: 50vw;
+    width: 50vw;
 }
 
 .rightSide {
     width: 50vw;
 }
+
+/* OurTeam */
