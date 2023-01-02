@@ -1,0 +1,21 @@
+{{ with .Site.Params.interest }}
+{{ if .enable }}
+<section class="interest">
+    <div class="test">
+        <h2>
+            {{ .title }}
+        </h2>
+        <h3>
+            {{ .subtitle }}
+        </h3>
+        <p>
+            {{ .text }}
+        </p>
+
+    </div>
+    <div class="imageContainer">
+    <img width="200px" height="200px" src="{{ .image | absURL }}" alt="{{ .alt }}"/>
+</div>
+</section>
+{{ end }}
+{{ end }}

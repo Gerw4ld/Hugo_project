@@ -9,7 +9,7 @@
   <div class="containerText">
     {{ range .item }}
     <div>
-        <img width="240px" height="240px" style="cursor: pointer; border-radius: 50%" src="{{ .image | absURL }}" alt="product photo">
+        <img width="240px" height="240px" style="cursor: pointer; border-radius: 50%" src="{{ .image | absURL }}" alt="{{ .alt }}">
         <p>
           {{ .name }}
         </p>

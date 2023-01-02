@@ -1,0 +1,12 @@
+{{ with .Site.Params.impressum }}
+{{ if .enable }}
+<section class="impressum">
+    <h2>
+      {{ .title }}
+    </h2>
+    <p>
+      {{ .text }}
+    </p>
+</section>
+{{ end }}
+{{ end }}

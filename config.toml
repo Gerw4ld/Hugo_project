@@ -59,6 +59,27 @@ theme = 'myTheme'
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21742.09737483232!2d15.694632568291805!3d47.06451549631766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e5226f9caa04b%3A0x317ffefe54db5295!2sSulzberg!5e0!3m2!1sen!2sat!4v1672588973469!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   """
 
+  # Interest Section
+  [params.Interest]
+  enable = true
+  title = "Our product"
+  subtitle = "Super helpful info"
+  text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  image = "images/image.png"
+  alt = "logo image"
+
+  # TextField Section
+  [params.TextField]
+  enable = true
+  title = "Lorem Ipsum"
+  text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  button_text = "Do it"
+
+  # Impressum Section
+  [params.Impressum]
+  enable = true
+  title = "Impressum"
+  text = "Impressum text text text"
 
   [params.meta]
       keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"

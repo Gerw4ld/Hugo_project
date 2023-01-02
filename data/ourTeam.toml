@@ -3,6 +3,7 @@ title = "Our Team"
 
 [[item]]
 image = "images/employee1.png"
+alt = "photo of employee"
 name = "John Doe"
 role = """
 Lorem Ipsum
@@ -10,6 +11,7 @@ Lorem Ipsum
 
 [[item]]
 image = "images/employee2.png"
+alt = "photo of employee"
 name = "Jane Doe"
 role = """
 Lorem Ipsum
@@ -17,6 +19,7 @@ Lorem Ipsum
 
 [[item]]
 image = "images/employee3.png"
+alt = "photo of employee"
 name = "Mr. Roberts"
 role = """
 Lorem Ipsum
